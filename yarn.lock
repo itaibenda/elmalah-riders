@@ -2638,9 +2638,10 @@ __metadata:
   linkType: hard
 
 "@wix/stores@npm:^1.0.71":
-  version: 1.0.353
-  resolution: "@wix/stores@npm:1.0.353"
+  version: 1.0.355
+  resolution: "@wix/stores@npm:1.0.355"
   dependencies:
+    "@wix/stores_app-extensions": 1.0.0
     "@wix/stores_brands-v-3": 1.0.44
     "@wix/stores_catalog-versioning": 1.0.33
     "@wix/stores_collections": 1.0.66
@@ -2649,12 +2650,22 @@ __metadata:
     "@wix/stores_inventory": 1.0.84
     "@wix/stores_inventory-items-v-3": 1.0.59
     "@wix/stores_products": 1.0.110
-    "@wix/stores_products-v-3": 1.0.109
+    "@wix/stores_products-v-3": 1.0.110
     "@wix/stores_ribbons-v-3": 1.0.41
     "@wix/stores_stores-locations-v-3": 1.0.47
     "@wix/stores_subscription-options": 1.0.65
     "@wix/stores_wishlist": 1.0.58
-  checksum: 2544111b17c3cb32cfd46f49d680edec3000f5c2b9e2641bfc81f47242e0f98d7bafb25146875f2a57db99b16678f5549ec417b2603d060f3639a895c402d225
+  checksum: 003cbfdb0d4bbde094f7b7de4f69ec7f2aa7e62e8d0c5b24bc7645cbe55d0e142ec62923785e829ffddd28b11f26c71f36f0940b2027b7efc8f69ce1e1bdf065
+  languageName: node
+  linkType: hard
+
+"@wix/stores_app-extensions@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@wix/stores_app-extensions@npm:1.0.0"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: b39a81dd03b7cc4da409a3df877c306faf3193cec4f309faae40b5925f76fd2ebefecb5d0106b5f58da610b33ec733f01416b938a35a0e47e0df0cbdaeed78ca
   languageName: node
   linkType: hard
 
@@ -2728,13 +2739,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/stores_products-v-3@npm:1.0.109":
-  version: 1.0.109
-  resolution: "@wix/stores_products-v-3@npm:1.0.109"
+"@wix/stores_products-v-3@npm:1.0.110":
+  version: 1.0.110
+  resolution: "@wix/stores_products-v-3@npm:1.0.110"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: adff3994506d54b626b51b05554c69a304fe63f455ad77d0fb5510ac9a4bcc5da3d8a09078f48926e3ded799b9ead014c38ed6f0a560d5f1fe0d8dce370c63b9
+  checksum: 823930fc34d41a8cdf3ce92db0b4879e7088e898622c1b1fae029d3eeb5d16ef221c54a3e4add748d9a2d08e4fc47bec97e02d6ff5f42213837b244abfe25e78
   languageName: node
   linkType: hard
 
