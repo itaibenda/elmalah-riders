@@ -37,7 +37,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(
       await wixClient.servicePlugins.processRequest(request)
     );
-  } catch (e) {
-    return NextResponse.json(error);
+  } catch (err) {
+    return NextResponse.json(err);
   }
 }
