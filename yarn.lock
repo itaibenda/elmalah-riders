@@ -1505,6 +1505,91 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wix/blog@npm:^1.0.355":
+  version: 1.0.355
+  resolution: "@wix/blog@npm:1.0.355"
+  dependencies:
+    "@wix/blog_app-extensions": 1.0.2
+    "@wix/blog_blog-cache": 1.0.16
+    "@wix/blog_blog-importer": 1.0.30
+    "@wix/blog_categories": 1.0.64
+    "@wix/blog_draft-posts": 1.0.65
+    "@wix/blog_posts": 1.0.76
+    "@wix/blog_tags": 1.0.70
+  checksum: f8a77f4d182db221f1229fa3f698e21e5cc9910c82044e3b457f16dc5ff4705ee171dc4f10ca905bebf08e6daed40afe23306824e8ecd588cf86f271792e9cc5
+  languageName: node
+  linkType: hard
+
+"@wix/blog_app-extensions@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@wix/blog_app-extensions@npm:1.0.2"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: 65d13489f2776a437edd48f99515c3e5a232743c1a0de8d4e88939b6972996e05a155591588c22a1183e1d93d35f716aff2d8ba607e993292ea0b8ea1b04318b
+  languageName: node
+  linkType: hard
+
+"@wix/blog_blog-cache@npm:1.0.16":
+  version: 1.0.16
+  resolution: "@wix/blog_blog-cache@npm:1.0.16"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: 42feea26880a9110c58c414c6cd135f3eaecf7b414b5ad0e7195b31e25f39c0801bcb747f4c0e0aee8804e32d4cf039dbec7b705b67973ea03f9fc21ab282252
+  languageName: node
+  linkType: hard
+
+"@wix/blog_blog-importer@npm:1.0.30":
+  version: 1.0.30
+  resolution: "@wix/blog_blog-importer@npm:1.0.30"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: 1a3ab067e6d60f27e38732c82f856874e2b642a015812a54378256d4f11de28fdeaf2c5467a73bf5118320c08e6b37bc7566fd70ce3076622d01b1b7e08fa391
+  languageName: node
+  linkType: hard
+
+"@wix/blog_categories@npm:1.0.64":
+  version: 1.0.64
+  resolution: "@wix/blog_categories@npm:1.0.64"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: 37dd95f206600043a5ad49e577d3524d78afc977ee72d1d7f9e71cb1cd15262f2af0f122ea828395e0741519e5637e5d2d329ee352ccd038556fd619d411debc
+  languageName: node
+  linkType: hard
+
+"@wix/blog_draft-posts@npm:1.0.65":
+  version: 1.0.65
+  resolution: "@wix/blog_draft-posts@npm:1.0.65"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: 44bd94fd4c1ad264f2763db05a60a88b884cf37989775bb8ae314570204c6056f41da6478c77978755228a6e84d738adfe29b3cd28ede0414c07e26cf32460a4
+  languageName: node
+  linkType: hard
+
+"@wix/blog_posts@npm:1.0.76":
+  version: 1.0.76
+  resolution: "@wix/blog_posts@npm:1.0.76"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: 9880866f032dcd25a9864c82af01a58f31fb2b3b47530c14ea57a5a9ae654db2aeabb74dc1972a17c49a082738ce591501469212136c72c1a931f31e6b8a8ace
+  languageName: node
+  linkType: hard
+
+"@wix/blog_tags@npm:1.0.70":
+  version: 1.0.70
+  resolution: "@wix/blog_tags@npm:1.0.70"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: 48102d15677b7eae194d01b9233420ed58000fa20bcc5b83831da03fde1eb670595e2213609a8fab2f2bc7d42796d01fa235f410f20b97e6bfd928e3deec2115
+  languageName: node
+  linkType: hard
+
 "@wix/design-system-tokens@npm:^1.69.0":
   version: 1.69.0
   resolution: "@wix/design-system-tokens@npm:1.69.0"
@@ -2598,6 +2683,16 @@ __metadata:
     "@wix/sdk-context": ^0.0.1
     "@wix/sdk-types": ^1.12.4
   checksum: a85110a92315436e7b385c10c8ffd0d060933b8047888b6c2ae5a75ce1e87d96155c610cefeec3ad683246d53909db2b05171fdab0af058f95a20cc8033ef8c2
+  languageName: node
+  linkType: hard
+
+"@wix/sdk-runtime@npm:^0.3.35":
+  version: 0.3.35
+  resolution: "@wix/sdk-runtime@npm:0.3.35"
+  dependencies:
+    "@wix/sdk-context": ^0.0.1
+    "@wix/sdk-types": ^1.13.3
+  checksum: 8cb6a315614b80927b4f96e02827c5a6f4335fde6f6fc2112f3481532ddce37d7eb10af22ee7e20f355f5b7fa002b210be7d7a262422cd529e00775acdf179b5
   languageName: node
   linkType: hard
 
@@ -10778,6 +10873,7 @@ __metadata:
     "@types/node": 18.11.8
     "@types/react": 18.0.24
     "@types/react-dom": 18.0.8
+    "@wix/blog": ^1.0.355
     "@wix/ecom": ^1.0.474
     "@wix/events": ^1.0.159
     "@wix/redirects": ^1.0.13

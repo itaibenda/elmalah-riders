@@ -215,6 +215,23 @@ export function HomeScreen({
           added, they will appear here.
         </div>
       )}
+
+      <div className="flex gap-2 sm:gap-14 px-14 flex-col sm:flex-row">
+        <div className="text-custom-1 text-center sm:text-left pt-10 sm:py-20 basis-1/2">
+          <h1 className="uppercase text-4xl sm:text-7xl text-center sm:text-left text-black">
+            Our Blog
+          </h1>
+          <p className="text-lg my-10 text-black">
+            Learn about the best bike trails in the South District
+          </p>
+          <a
+            href="/blog"
+            className="btn-main rounded-2xl text-base px-8 py-2.5"
+          >
+            Read More!
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
