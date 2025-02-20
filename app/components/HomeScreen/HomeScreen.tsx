@@ -21,10 +21,11 @@ export function HomeScreen({
               className="px-10 sm:px-14 py-6 bg-site"
               data-testid={testIds.HOME_PAGE.HEADER}
             >
-              <h1 className="text-5xl sm:text-[120px] leading-none animate-fade-in">
-                The Best
+              <h1 className="text-5xl sm:text-[100px] leading-none animate-fade-in">
+                The Top
                 <br /> Bike Shop
-                <br /> in Gan Yavne
+                <br /> in Gan
+                <br /> Yavne
               </h1>
               <div className="flex text-gray-700 gap-4 justify-center sm:justify-start">
                 <svg
@@ -83,7 +84,7 @@ export function HomeScreen({
           </div>
           <div className="basis-1/2">
             <Image
-              src="https://static.wixstatic.com/media/503ea4_ed9a38760ae04aab86b47e82525fdcac~mv2.jpg/v1/fill/w_918,h_585,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/503ea4_ed9a38760ae04aab86b47e82525fdcac~mv2.jpg"
+              src="/images/home.png"
               alt="elmalah"
               className="w-full px-10 sm:px-0"
               width={1000}
@@ -92,8 +93,8 @@ export function HomeScreen({
           </div>
         </div>
         <Image
-          className="absolute inset-x-2/4 -translate-x-2/4 -translate-y-[20%] bottom-0 top-[20%] hidden sm:block"
-          src="https://static.wixstatic.com/media/c22c23_14f3a617cd684341b51dd1a3962c856e~mv2.png/v1/fill/w_202,h_245,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c22c23_14f3a617cd684341b51dd1a3962c856e~mv2.png"
+          className="absolute inset-x-2/4 -translate-x-2/4 -translate-y-[20%] bottom-0 top-[40%] hidden sm:block"
+          src="/images/home-small.png"
           alt="elmalah-small"
           width={202}
           height={245}
@@ -216,12 +217,12 @@ export function HomeScreen({
         </div>
       )}
 
-      <div className="flex gap-2 sm:gap-14 px-14 flex-col sm:flex-row">
+      <div className="bg-zinc-900 flex gap-2 sm:gap-14 px-14 flex-col sm:flex-row">
         <div className="text-custom-1 text-center sm:text-left pt-10 sm:py-20 basis-1/2">
-          <h1 className="uppercase text-4xl sm:text-7xl text-center sm:text-left text-black">
+          <h1 className="uppercase text-4xl sm:text-7xl text-center sm:text-left text-white">
             Our Blog
           </h1>
-          <p className="text-lg my-10 text-black">
+          <p className="text-lg my-10 text-white">
             Learn about the best bike trails in the South District
           </p>
           <a

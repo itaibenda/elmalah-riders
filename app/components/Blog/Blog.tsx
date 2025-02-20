@@ -36,7 +36,7 @@ export function Blog({ items }: { items: posts.Post[] }) {
               data-testid={testIds.PRODUCT_ITEM.CONTAINER}
             >
               <a
-                href={`/product-page/${item.slug}`}
+                href={`/post-page/${item.slug}`}
                 data-testid={testIds.PRODUCT_ITEM.PRODUCT_DETAILS_CTA}
               >
                 <div className="h-auto max-w-full">
