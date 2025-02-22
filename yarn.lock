@@ -2678,8 +2678,8 @@ __metadata:
   linkType: hard
 
 "@wix/ricos@npm:^10.120.2":
-  version: 10.120.2
-  resolution: "@wix/ricos@npm:10.120.2"
+  version: 10.120.3
+  resolution: "@wix/ricos@npm:10.120.3"
   dependencies:
     "@floating-ui/react-dom": ^2.0.0
     "@loadable/component": ^5.14.1
@@ -2760,7 +2760,7 @@ __metadata:
     lodash: ^4.17.15
     react: ^16.14.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.14.0 || ^17.0.0 || ^18.0.0
-  checksum: 87a5e0f4c2908bbe5de644d588f9963d467d8268e7df2cae26668ff8e2855d2e69eeaf93cd99d3a670aad911243f95a538bd424d77a0664404f15f294827fdd0
+  checksum: 1340e3ae2e7fdbcc05a0dfdc9217619ce363e55f7fe5a1d0593786eb8d47b7d11489923aed27a2cedeac214aed1c575fe210bba583844204a49ba7e9327341be
   languageName: node
   linkType: hard
 
