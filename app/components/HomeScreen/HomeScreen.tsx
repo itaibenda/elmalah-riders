@@ -111,7 +111,7 @@ export function HomeScreen({
             href="https://manage.wix.com/account/site-selector?actionUrl=https%3A%2F%2Fmanage.wix.com%2Fdashboard%2F%7BmetaSiteId%7D%2Fevents%3FreferralInfo%3DHeadless"
             target="_blank"
             rel="noreferrer"
-            className="text-purple-500"
+            className="text-yellow-300"
           >
             here
           </a>{' '}
@@ -208,7 +208,7 @@ export function HomeScreen({
             href="https://manage.wix.com/account/site-selector?actionUrl=+https%3A%2F%2Fmanage.wix.com%2Fdashboard%2F%7BmetaSiteId%7D%2Fstore%2Fcategories%2Flist%3FreferralInfo%3DHeadless"
             target="_blank"
             rel="noreferrer"
-            className="text-purple-500"
+            className="text-yellow-300"
           >
             here
           </a>{' '}

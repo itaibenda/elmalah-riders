@@ -9,11 +9,13 @@ export function Shop({ items }: { items: products.Product[] }) {
         className="bg-black text-custom-1 text-center py-4 sm:py-10 sm:py-20 h-[450px] sm:h-[520px]"
         data-testid={testIds.SHOP_PAGE.HEADER}
       >
-        <h1 className="uppercase text-3xl sm:text-6xl">Merch</h1>
+        <h1 className="uppercase text-3xl sm:text-6xl">The Bike Shop</h1>
         <p className="text-sm sm:text-base mx-auto px-8 sm:max-w-[50%] my-10">
-          I’m a paragraph. I’m a great space to write about what makes the
-          products special and explain how customers can benefit from these
-          items.
+          Whether you're a seasoned cyclist or just starting out, Pedal Power
+          has everything you need to hit the road or trails with confidence.
+          From top-quality bikes and gear to expert repairs and friendly advice,
+          we're here to keep you riding smoothly. Stop by today and find your
+          perfect ride! 🚴‍♂️✨
         </p>
       </div>
       {items.length ? (
@@ -21,7 +23,7 @@ export function Shop({ items }: { items: products.Product[] }) {
           className="full-w overflow-hidden mx-auto text-center mt-[-200px] sm:mt-[-130px] px-10"
           data-testid={testIds.PRODUCT_LIST.CONTAINER}
         >
-          <ul className="grid sm:grid-cols-3 gap-8 grid-flow-row">
+          <ul className="grid sm:grid-cols-4 gap-8 grid-flow-row">
             {items.map((item) => (
               <li
                 key={item._id}
@@ -35,7 +37,7 @@ export function Shop({ items }: { items: products.Product[] }) {
                   <div className="h-auto max-w-full">
                     <WixMediaImage
                       media={item.media?.mainMedia?.image?.url}
-                      height={560}
+                      height={400}
                       width={560}
                       alt={
                         item.media?.mainMedia?.image?.altText || 'main image'
@@ -77,7 +79,7 @@ export function Shop({ items }: { items: products.Product[] }) {
             href="https://manage.wix.com/account/site-selector?actionUrl=+https%3A%2F%2Fmanage.wix.com%2Fdashboard%2F%7BmetaSiteId%7D%2Fstore%2Fproducts%3FreferralInfo%3DHeadless"
             target="_blank"
             rel="noreferrer"
-            className="text-purple-500"
+            className="text-yellow-500"
           >
             here
           </a>{' '}

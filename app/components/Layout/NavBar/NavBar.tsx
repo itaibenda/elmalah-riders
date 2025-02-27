@@ -7,7 +7,8 @@ import Image from 'next/image';
 
 const navbarMainItems = [
   { ref: '/', label: 'HOME' },
-  { ref: '/shop', label: 'MERCH' },
+  { ref: '/shop', label: 'STORE' },
+  { ref: '/blog', label: 'BLOG' },
 ];
 
 const navbarSecondrayItems = [
@@ -27,7 +28,7 @@ const StyledNavLink = ({
 }) => (
   <NavLink
     className={`${className ?? ''} ${
-      isActive ? 'text-purple-300' : 'hover:text-gray-400'
+      isActive ? 'text-yellow-300' : 'hover:text-gray-400'
     }`}
     {...linkProps}
   />

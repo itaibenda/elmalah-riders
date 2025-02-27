@@ -245,7 +245,7 @@ export function TicketsTable({
                 <div className="whitespace-nowrap my-1">
                   <div className="flex justify-between">
                     <button
-                      className="text-xs text-purple-400 underline"
+                      className="text-xs text-yellow-300 underline"
                       onClick={() =>
                         setExpendTicketDescriptionForTicket(ticket._id!)
                       }
@@ -387,7 +387,7 @@ export function TicketsTable({
                 <div className="whitespace-nowrap mt-6">
                   <div className="flex justify-between">
                     <button
-                      className="text-sm text-purple-400 underline"
+                      className="text-sm text-yellow-300 underline"
                       onClick={() =>
                         setExpendPricingOptionsForTicket(ticket._id!)
                       }

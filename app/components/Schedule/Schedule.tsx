@@ -76,7 +76,7 @@ export const Schedule = ({
           </span>
           <a
             href={`/schedule/${slug}`}
-            className="text-purple-500 border py-2 px-4 border-purple-500 w-full sm:w-auto text-center"
+            className="text-yellow-300 border py-2 px-4 border-yellow-300 w-full sm:w-auto text-center"
           >
             See All
           </a>

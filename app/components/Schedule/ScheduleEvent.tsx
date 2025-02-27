@@ -26,7 +26,7 @@ export function ScheduleEvent({
       </div>
       <div className="flex flex-col-reverse sm:flex-col">
         <a
-          className="text-purple-500 border py-2 mt-4 sm:mt-0 px-4 sm:mb-8 border-purple-500 inline-block w-full sm:w-fit text-center"
+          className="text-yellow-300 border py-2 mt-4 sm:mt-0 px-4 sm:mb-8 border-yellow-300 inline-block w-full sm:w-fit text-center"
           href={`/events/${slug}`}
         >
           Get Tickets
