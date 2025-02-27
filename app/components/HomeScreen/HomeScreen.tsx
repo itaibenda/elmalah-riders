@@ -143,7 +143,7 @@ export function HomeScreen({
                         .image!.url!
                     }
                     width={800}
-                    height={800}
+                    height={600}
                     alt={
                       productsForCategories[1]?.product!.media!.mainMedia!
                         .image!.altText!
@@ -166,7 +166,7 @@ export function HomeScreen({
                         .image!.url!
                     }
                     width={800}
-                    height={800}
+                    height={600}
                     alt={
                       productsForCategories[0]?.product!.media!.mainMedia!
                         .image!.altText!
@@ -187,7 +187,7 @@ export function HomeScreen({
                         .image!.url!
                     }
                     width={800}
-                    height={800}
+                    height={600}
                     alt={
                       productsForCategories[2]?.product!.media!.mainMedia!
                         .image!.altText!

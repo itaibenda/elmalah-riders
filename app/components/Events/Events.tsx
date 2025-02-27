@@ -68,7 +68,7 @@ export const Events = ({ events }: { events: wixEvents.V3Event[] }) => {
                   </div>
                 </div>
               </div>
-              <div className="grow flex flex-col hover:text-purple-500">
+              <div className="grow flex flex-col hover:text-yellow-300">
                 <button
                   className="text-left w-full h-full group/button text-2xl text-left"
                   onClick={(e) => {
