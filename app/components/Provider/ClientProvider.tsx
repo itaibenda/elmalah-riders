@@ -7,6 +7,9 @@ import { collections, products } from '@wix/stores';
 import { currentCart, backInStockNotifications } from '@wix/ecom';
 import { wixEventsV2 as wixEvents, orders as checkout } from '@wix/events';
 import { redirects } from '@wix/redirects';
+import { members } from '@wix/members';
+import { posts } from '@wix/blog';
+
 import Cookies from 'js-cookie';
 import { WIX_REFRESH_TOKEN } from '@app/constants';
 const queryClient = new QueryClient();
@@ -16,12 +19,14 @@ const refreshToken = JSON.parse(Cookies.get(WIX_REFRESH_TOKEN) || '{}');
 const wixClient = createClient({
   modules: {
     products,
+    posts,
     collections,
     currentCart,
     backInStockNotifications,
     wixEvents,
     checkout,
     redirects,
+    members,
   },
   auth: OAuthStrategy({
     clientId: process.env.NEXT_PUBLIC_WIX_CLIENT_ID!,

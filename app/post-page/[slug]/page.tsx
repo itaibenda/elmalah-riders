@@ -11,5 +11,7 @@ export default async function StoresCategoryPage({ params }: any) {
       fieldsets: ['RICH_CONTENT' as any],
     })
   ).post;
-  return <BlogView post={post || {}} />;
+
+  const { metrics } = await wixClient.posts.getPostMetrics(post?._id || '');
+  return <BlogView post={post || {}} metrics={metrics || {}} />;
 }
