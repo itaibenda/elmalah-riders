@@ -7,7 +7,6 @@ import { collections, products } from '@wix/stores';
 import { currentCart, backInStockNotifications } from '@wix/ecom';
 import { wixEventsV2 as wixEvents, orders as checkout } from '@wix/events';
 import { redirects } from '@wix/redirects';
-import { members } from '@wix/members';
 import { posts } from '@wix/blog';
 
 import Cookies from 'js-cookie';
@@ -26,7 +25,6 @@ const wixClient = createClient({
     wixEvents,
     checkout,
     redirects,
-    members,
   },
   auth: OAuthStrategy({
     clientId: process.env.NEXT_PUBLIC_WIX_CLIENT_ID!,
