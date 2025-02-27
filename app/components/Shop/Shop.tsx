@@ -11,11 +11,11 @@ export function Shop({ items }: { items: products.Product[] }) {
       >
         <h1 className="uppercase text-3xl sm:text-6xl">The Bike Shop</h1>
         <p className="text-sm sm:text-base mx-auto px-8 sm:max-w-[50%] my-10">
-          Whether you're a seasoned cyclist or just starting out, Pedal Power
-          has everything you need to hit the road or trails with confidence.
-          From top-quality bikes and gear to expert repairs and friendly advice,
-          we're here to keep you riding smoothly. Stop by today and find your
-          perfect ride! 🚴‍♂️✨
+          Whether you&apos;re a seasoned cyclist or just starting out, Pedal
+          Power has everything you need to hit the road or trails with
+          confidence. From top-quality bikes and gear to expert repairs and
+          friendly advice, we&apos;re here to keep you riding smoothly. Stop by
+          today and find your perfect ride! 🚴‍♂️✨
         </p>
       </div>
       {items.length ? (
