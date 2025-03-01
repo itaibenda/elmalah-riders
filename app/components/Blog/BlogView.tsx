@@ -3,10 +3,10 @@
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 import testIds from '@app/utils/test-ids';
 import { posts } from '@wix/blog';
-import { RichContent, RicosViewer } from '@wix/ricos';
+import { quickStartViewerPlugins, RichContent, RicosViewer } from '@wix/ricos';
 import { useWixClient } from '@app/hooks/useWixClient';
 import '@wix/ricos/css/all-plugins-viewer.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export function BlogView({
   post,
@@ -38,6 +38,7 @@ export function BlogView({
             <div className="flex flex-col w-full h-full text-left">
               <RicosViewer
                 content={post.richContent as unknown as RichContent}
+                plugins={quickStartViewerPlugins()}
               />
             </div>
             <div>Likes: {likes}</div>
