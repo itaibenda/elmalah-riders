@@ -1594,88 +1594,88 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wix/auto_sdk_blog_blog-cache@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@wix/auto_sdk_blog_blog-cache@npm:1.0.1"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: a727c4bf9e31f765cc2727a34502c226d17e359892353e17bf6103af6ed606627928c00c9042ecad5316db5eab68865397edb286c68b1295443156792b599f45
+  languageName: node
+  linkType: hard
+
+"@wix/auto_sdk_blog_blog-importer@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@wix/auto_sdk_blog_blog-importer@npm:1.0.1"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: f5ab083275b7b9b8d93f89f87bc56c6946fc971e3f5e4d4c96cc2fe13e33ceddab70b16e2a32209c24fabb03d582011d345ef62f40b6636e59e0c922c2f1cb11
+  languageName: node
+  linkType: hard
+
+"@wix/auto_sdk_blog_categories@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@wix/auto_sdk_blog_categories@npm:1.0.3"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: 815c0df430d3763ed85f70b2749555606296c5e02b74110cb8bef2b066a1af54d07fce52fbd7ee58c4ce00d5a24aa884f22287a6c7703772b3a4623d418108a2
+  languageName: node
+  linkType: hard
+
+"@wix/auto_sdk_blog_draft-posts@npm:1.0.9":
+  version: 1.0.9
+  resolution: "@wix/auto_sdk_blog_draft-posts@npm:1.0.9"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: e7455fce05be0d131960c5a35901a233acb35ce688ff86a39cd0d65f89ecd6962e8df30ac21d0e68c9e72006495fb77d80ebc36eb5fab8cd14727bbd44f847a7
+  languageName: node
+  linkType: hard
+
+"@wix/auto_sdk_blog_posts@npm:1.0.11":
+  version: 1.0.11
+  resolution: "@wix/auto_sdk_blog_posts@npm:1.0.11"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: d84a66846c37ad61005a7870cdf143a0c816008150418ac555757ca48407bc843d25d9ffc9d706880f1b970b7dead36578c7dce68c83a2e287360670aa2679ac
+  languageName: node
+  linkType: hard
+
+"@wix/auto_sdk_blog_tags@npm:1.0.10":
+  version: 1.0.10
+  resolution: "@wix/auto_sdk_blog_tags@npm:1.0.10"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.35
+    "@wix/sdk-types": ^1.12.4
+  checksum: a2b799def584fdbfc0e0fb530a57aae10585f140a557d54eea33f857b07b71db00a7a141a4f5e87296dabffd0a905f8143a67c3959aa535139edf8186eda2071
+  languageName: node
+  linkType: hard
+
 "@wix/blog@npm:^1.0.355":
-  version: 1.0.355
-  resolution: "@wix/blog@npm:1.0.355"
+  version: 1.0.395
+  resolution: "@wix/blog@npm:1.0.395"
   dependencies:
-    "@wix/blog_app-extensions": 1.0.2
-    "@wix/blog_blog-cache": 1.0.16
-    "@wix/blog_blog-importer": 1.0.30
-    "@wix/blog_categories": 1.0.64
-    "@wix/blog_draft-posts": 1.0.65
-    "@wix/blog_posts": 1.0.76
-    "@wix/blog_tags": 1.0.70
-  checksum: f8a77f4d182db221f1229fa3f698e21e5cc9910c82044e3b457f16dc5ff4705ee171dc4f10ca905bebf08e6daed40afe23306824e8ecd588cf86f271792e9cc5
+    "@wix/auto_sdk_blog_blog-cache": 1.0.1
+    "@wix/auto_sdk_blog_blog-importer": 1.0.1
+    "@wix/auto_sdk_blog_categories": 1.0.3
+    "@wix/auto_sdk_blog_draft-posts": 1.0.9
+    "@wix/auto_sdk_blog_posts": 1.0.11
+    "@wix/auto_sdk_blog_tags": 1.0.10
+    "@wix/blog_app-extensions": 1.0.24
+  checksum: fe7e43f3246ca29ab5bb54046ca5189ceed2a3ede16a84702cc245f5d8947370593d4d42149ecb1d1ccaf1dbe2a58e749cf57de4b55f3f1466b50d568f03b44e
   languageName: node
   linkType: hard
 
-"@wix/blog_app-extensions@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@wix/blog_app-extensions@npm:1.0.2"
+"@wix/blog_app-extensions@npm:1.0.24":
+  version: 1.0.24
+  resolution: "@wix/blog_app-extensions@npm:1.0.24"
   dependencies:
     "@wix/sdk-runtime": ^0.3.35
     "@wix/sdk-types": ^1.12.4
-  checksum: 65d13489f2776a437edd48f99515c3e5a232743c1a0de8d4e88939b6972996e05a155591588c22a1183e1d93d35f716aff2d8ba607e993292ea0b8ea1b04318b
-  languageName: node
-  linkType: hard
-
-"@wix/blog_blog-cache@npm:1.0.16":
-  version: 1.0.16
-  resolution: "@wix/blog_blog-cache@npm:1.0.16"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.35
-    "@wix/sdk-types": ^1.12.4
-  checksum: 42feea26880a9110c58c414c6cd135f3eaecf7b414b5ad0e7195b31e25f39c0801bcb747f4c0e0aee8804e32d4cf039dbec7b705b67973ea03f9fc21ab282252
-  languageName: node
-  linkType: hard
-
-"@wix/blog_blog-importer@npm:1.0.30":
-  version: 1.0.30
-  resolution: "@wix/blog_blog-importer@npm:1.0.30"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.35
-    "@wix/sdk-types": ^1.12.4
-  checksum: 1a3ab067e6d60f27e38732c82f856874e2b642a015812a54378256d4f11de28fdeaf2c5467a73bf5118320c08e6b37bc7566fd70ce3076622d01b1b7e08fa391
-  languageName: node
-  linkType: hard
-
-"@wix/blog_categories@npm:1.0.64":
-  version: 1.0.64
-  resolution: "@wix/blog_categories@npm:1.0.64"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.35
-    "@wix/sdk-types": ^1.12.4
-  checksum: 37dd95f206600043a5ad49e577d3524d78afc977ee72d1d7f9e71cb1cd15262f2af0f122ea828395e0741519e5637e5d2d329ee352ccd038556fd619d411debc
-  languageName: node
-  linkType: hard
-
-"@wix/blog_draft-posts@npm:1.0.65":
-  version: 1.0.65
-  resolution: "@wix/blog_draft-posts@npm:1.0.65"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.35
-    "@wix/sdk-types": ^1.12.4
-  checksum: 44bd94fd4c1ad264f2763db05a60a88b884cf37989775bb8ae314570204c6056f41da6478c77978755228a6e84d738adfe29b3cd28ede0414c07e26cf32460a4
-  languageName: node
-  linkType: hard
-
-"@wix/blog_posts@npm:1.0.76":
-  version: 1.0.76
-  resolution: "@wix/blog_posts@npm:1.0.76"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.35
-    "@wix/sdk-types": ^1.12.4
-  checksum: 9880866f032dcd25a9864c82af01a58f31fb2b3b47530c14ea57a5a9ae654db2aeabb74dc1972a17c49a082738ce591501469212136c72c1a931f31e6b8a8ace
-  languageName: node
-  linkType: hard
-
-"@wix/blog_tags@npm:1.0.70":
-  version: 1.0.70
-  resolution: "@wix/blog_tags@npm:1.0.70"
-  dependencies:
-    "@wix/sdk-runtime": ^0.3.35
-    "@wix/sdk-types": ^1.12.4
-  checksum: 48102d15677b7eae194d01b9233420ed58000fa20bcc5b83831da03fde1eb670595e2213609a8fab2f2bc7d42796d01fa235f410f20b97e6bfd928e3deec2115
+  checksum: b670d8b520f18123fe18817c4655bc1729a0870f901ca2010978ef89b241875e7f94a262864771d8e90daa7c2a8551472d4c462af48fb50bdaa1ba69c96e9637
   languageName: node
   linkType: hard
 
